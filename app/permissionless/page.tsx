@@ -5,51 +5,7 @@ export default function Home() {
   return (
     <main className="min-h-screen w-full flex-col px-12 mx-auto space-y-12 max-w-[1400px] ">
       <div className="!mt-12">
-        <h1 className="text-left text-4xl font-bold">Verified Launches</h1>
-        <div className="flex gap-4 !mt-8 flex-wrap flex-col rounded-3xl p-6 bg-slate-500">
-        <h1 className="text-left text-3xl font-bold">Upcoming Launches</h1>
-        <div className="flex flex-wrap place-content-center gap-5">
-          <div className="rounded-3xl h-[300px] w-[500px] relative" >
-            <Image src='/images/btc_promo.jpg' alt='placeholder' className="rounded-3xl" fill />
-            <div className="absolute top-1 right-1 bg-green-400 outline outline-slate-500 outline-7 w-5 h-5 rounded-full" />
-            <div className="w-full backdrop-blur-md bottom-0 absolute h-[7rem] rounded-b-3xl p-5">
-            <div className="my-auto">
-                  <h1 className="text-xl">Prototype - Title</h1>
-                  <h2 className="text-md text-[#d6d6d6]">Participate in complete decentralized processes on RunesPad. Empower...</h2>
-                </div>
-              </div>
-          </div>
-          <div className="rounded-3xl h-[300px] w-[500px] relative" >
-            <Image src='/images/btc_promo.jpg' alt='placeholder' className="rounded-3xl" fill />
-            <div className="absolute top-1 right-1 bg-green-400 outline outline-slate-500 outline-7 w-5 h-5 rounded-full" />
-            <div className="w-full backdrop-blur-md bottom-0 absolute h-[7rem] rounded-b-3xl p-5">
-            <div className="my-auto">
-                  <h1 className="text-xl">Prototype - Title</h1>
-                  <h2 className="text-md text-[#d6d6d6]">Participate in complete decentralized processes on RunesPad. Empower...</h2>
-                </div>
-              </div>
-          </div>
-          <div className="rounded-3xl h-[300px] w-[500px] relative" >
-            <Image src='/images/btc_promo.jpg' alt='placeholder' className="rounded-3xl" fill />
-            <div className="absolute top-1 right-1 bg-green-400 outline outline-slate-500 outline-7 w-5 h-5 rounded-full" />
-            <div className="w-full backdrop-blur-md bottom-0 absolute h-[7rem] rounded-b-3xl p-5">
-            <div className="my-auto">
-                  <h1 className="text-xl">Prototype - Title</h1>
-                  <h2 className="text-md text-[#d6d6d6]">Participate in complete decentralized processes on RunesPad. Empower...</h2>
-                </div>
-              </div>
-          </div>
-          <div className="rounded-3xl h-[300px] w-[500px] relative" >
-            <Image src='/images/btc_promo.jpg' alt='placeholder' className="rounded-3xl" fill />
-            <div className="absolute top-1 right-1 bg-green-400 outline outline-slate-500 outline-7 w-5 h-5 rounded-full" />
-            <div className="w-full backdrop-blur-md bottom-0 absolute h-[7rem] rounded-b-3xl p-5">
-            <div className="my-auto">
-                  <h1 className="text-xl">Prototype - Title</h1>
-                  <h2 className="text-md text-[#d6d6d6]">Participate in complete decentralized processes on RunesPad. Empower...</h2>
-                </div>
-              </div>
-          </div></div>
-        </div>
+        <h1 className="text-left text-4xl font-bold">Permissionless Sales</h1>
         <div className="bg-[#FFF8A6] p-8 rounded-3xl mt-8 w-full">
           <h1 className="text-left text-2xl font-bold text-black">Upcoming Sales</h1>
           <table className="table-fixed text-sm !mt-5 text-black text-left w-full">
